@@ -1,36 +1,110 @@
 .grey-container {
-    position: relative;
-    height: 400px;
-    border: 1px transparent;
-    background-image: img src="images/header_bg.jpg" alt="headerbgd";
+    height: 500px;
+    width:1200px;
+    background-image: url("header_bg.jpg");
     background-size: cover;
+    background-repeat:no-repeat;
+    font-family: 'Open Sans', sans-serif;
   }
 
-  .relaxrhd {
-      height:30px;
-      width:40px;
-      font-family: Open Sans;
-      text-align: left;
-      font-size: 24px;
-      font-weight: 900;
+.relaxrhd {
+    height:30px;
+    width:400px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
   }
 
-  .getit {
-      height:30px;
-      width:40px;
-      text-align: center;
-      font-size:24px;
-      font-weight:500;    
+.getit {
+    margin: auto;
+    height:30px;
+    width:400px;
+    text-align: center;
+    font-size:24px;
+    font: weight 300;
+    color: white;
+    padding-top: 100px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;    
   }
 
-  .yello{
-      height:30px;
-      width: 40px;
-      text-align: center;
-      font-size:14px;
-      background-color: yellow;
-      border:5px solid black;
+.buttonyello{
+    margin:auto;
+    height:30px;
+    width: 100px;
+    text-align: center;
+    font-size:14px;
+    color: #121212;
+    background-color: yellow;
+    padding-top:12px;
+    border-radius: 25px;
+    }
 
-  }
+.white-container{
+    height: 500px;
+    width:1200px;
+    background-color:#f0efef;
+    font-family: 'Open Sans', sans-serif;
+}
 
-  /* "Get it Now" - Extra bold, 14px. 5px border radius */
+.benefits{
+    margin:auto;
+    text-align: left;
+    font: size 20px;
+    font-weight:600;
+    color:#033048;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;   
+}
+
+.text-container{
+    height: 500px;
+    width:200px;
+}
+
+.pa{    
+    text-align: left;
+    font-size: 13px;
+    font-weight:300;
+    color:#121212;
+    padding-left:40px;
+}
+
+.ocean{
+    height: 400px;
+    width:1200px;
+    overflow: auto;
+    background-image: url("testimonial_bg.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quotebox{
+    margin: 50px auto 0 auto;
+    height: 500px;
+    width:300px;
+}
+.quote{
+    
+    text-align: left;
+    font-size: 18px;
+    font-weight:300;
+    font-style:italic;
+    color: white;
+    padding-left:40px;
+}
+
+.amanda{
+    text-align: left;
+    font-size: 18px;
+    font-weight:600;
+    color: white;
+    padding-left:40px;
+}
