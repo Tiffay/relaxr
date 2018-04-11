@@ -24,7 +24,7 @@
     width:400px;
     text-align: center;
     font-size:24px;
-    font: weight 300;
+    font-weight: 300;
     color: white;
     padding-top: 100px;
     padding-right: 20px;
@@ -113,28 +113,35 @@
 }
 
 .yellow-container{
-    height: 60px;
+    height: 80px;
     width:1200px;
+    overflow:auto;
     background-color: yellow;
     font-family: 'Open Sans', sans-serif;
    }
 
 .signbutton{
     margin:auto;
-    height:30px;
-    width: 100px;
+    height:40px;
+    width:200px;
+    border-width:10px 5px 5px 5px;
     text-align: center;
     font-weight: 800;
     font-size:12px;
     color: white;
     background-color:rgb(41,50,62);
-    padding-top:12px;
-    border-radius: 25px;
+    padding-top: 18px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;   
+    border-radius: 22px;
 }
 
 .bottom-container{
     height: 200px;
     width:1200px;
+    position: relative;
+    overflow:auto;
     background-color: rgb(34,32,28);
     font-family: 'Open Sans', sans-serif;
 }
@@ -146,7 +153,7 @@
     font-size: 24px;
     font-weight: 800;
     color: yellow;
-    padding-left: 100px;
+    padding-left: 400px;
     padding-top: 20px;
 }
 
@@ -169,10 +176,15 @@
 }
 
 .copyright{
-    margin:bottom;
+    position:absolute;
+    bottom:0;
+    left:155px;
     font-size: 9px;
     font-weight: 600;
     color:white;
+    padding-left: 400px;
+    padding-top: 40px;
+
 }
 
 /* "Sign Up Now!" - extra bold, 12px, 5px border radius
